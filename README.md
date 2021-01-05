@@ -1,10 +1,10 @@
 # สุดยอดครับพี่เอ้
 แชร์โพสต์ล่าสุดของพี่เอ้แบบอัตโนมัติพร้อมกับ caption สุด cool อย่าง `สุดยอดครับพี่เอ้`
 
-## Requirement
-- Node.js
-- yarn หรือ npm
-- Microsoft Edge
+## Prerequiste
+- [Node.js](https://nodejs.org) (v.12+)
+- [yarn](https://yarnpkg.com) หรือ [npm](https://npmjs.com)
+- [Microsoft Edge](https://microsoft.com/edge)
 
 ## ติดตั้ง
 1. Clone Repo
@@ -22,15 +22,16 @@ yarn
 npm install
 ```
 
-3. ตั้ง email และ password ใน `.env`
+3. ตั้ง email, password และ caption ใน `.env`
 ```
 email = email ที่ใช้ในการ login Facebook
 password = password ที่ใช้ในการ login Facebook
+caption = "สุดยอดครับพี่เอ้"
 ```
 
 4. สุดยอดครับพี่เอ้
 ```
-node index.js
+yarn p-ae
 ```
 
 สุดยอดครับพี่เอ้ 
